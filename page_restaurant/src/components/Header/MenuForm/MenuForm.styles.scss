@@ -1,0 +1,18 @@
+
+body {
+    border: 5.5rem solid rgb(46, 51, 46);
+    background-color: rgb(241, 212, 176);
+    align-items: center;
+  }
+  menu-list{
+    &__parrafo {
+        font-family: cursive;
+    }
+  
+    &__list{
+        list-style-type: none;
+    }
+    &__items{
+        text-decoration: none;
+    }
+}
